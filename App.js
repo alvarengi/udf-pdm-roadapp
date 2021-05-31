@@ -1,21 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+// import Mapa from "./components/Mapa";
+import Ultimas from "./components/Ultimas";
+// import CardOcorrencia from "./components/CardOcorrencia";
+// import SelecionarTipo from "./components/AdicionarOcorrencia/SelecionarTipo";
+// import RevisarDetalhes from "./components/AdicionarOcorrencia/RevisarDetalhes";
+// import Fim from "./components/AdicionarOcorrencia/Fim";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+const App = () => <Ultimas></Ultimas>;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
